@@ -66,6 +66,7 @@ section{
     align-items: center;
     justify-content: center;
     pointer-events: none;
+    overflow: hidden;
 }
 
 section::before{
@@ -91,7 +92,7 @@ section img#moon{
     mix-blend-mode: screen;
 }
 
-section img#front{
+section img#mountains_front{
     z-index: 10;
 }
 
@@ -101,6 +102,7 @@ section img#front{
     color: #fff;
     white-space: nowrap;
     z-index: 9;
+    right: -80px;
 }
 
 #btn{
